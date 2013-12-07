@@ -21,7 +21,7 @@ module Middleman
       end
 
       # `middleman init` 時にテンプレートをコピーする処理を書く
-      def build_scaffold
+      def build_scaffold!
         template 'shared/config.tt', File.join(location, 'config.rb')
         copy_file 'source/index.html.erb', File.join(location, 'source/index.html.erb')
         copy_file 'source/layouts/layout.erb', File.join(location, 'source/layouts/layout.erb')
