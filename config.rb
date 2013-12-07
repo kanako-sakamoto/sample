@@ -51,7 +51,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :layouts_dir, 'l'
+set :layouts_dir, 'layouts'
 
 # Build-specific configuration
 configure :build do
